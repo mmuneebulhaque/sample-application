@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.login-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.forgot-password-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard-button:hover {
+    background-color: #3e8e41;
+}
+
+.dashboard-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.userprofile-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.userprofile-button:hover {
+    background-color: #3e8e41;
+}
+
+.userprofile-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.user-profile {
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-picture {
+    float: left;
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    float: left;
+}
+
+.profile-info h2 {
+    margin-top: 0;
+}
+
+.profile-buttons {
+    clear: both;
+    margin-top: 20px;
+}
+
+.edit-button, .change-password-button {
+    width: 150px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button:hover, .change-password-button:hover {
+    background-color: #3e8e41;
+}
